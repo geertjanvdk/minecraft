@@ -1,0 +1,8 @@
+services:
+  minecraft:
+    container_name: minecraft118
+    build: .
+    ports:
+      - "0.0.0.0:25565:25565"
+    volumes:
+      - /Users/geert/Project/minecraft/data118:/data
